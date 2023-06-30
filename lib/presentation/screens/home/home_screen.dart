@@ -1,4 +1,4 @@
-import 'package:assignment/presentation/screens/home/reps_screen/reps_screen.dart';
+import 'package:assignment/presentation/screens/home/reps_screen/view/reps_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
