@@ -16,7 +16,11 @@ class RepsItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(10.0),
       ),
       tileColor: Colors.white,
-      leading: const CircleAvatar(),
+      leading: CircleAvatar(
+        backgroundImage: post.postType.url != null
+            ? NetworkImage(post.postType.url!)
+            : null,
+      ),
       title: Column(
         children: <Widget>[
           Row(
