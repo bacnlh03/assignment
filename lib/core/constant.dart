@@ -1,0 +1,1 @@
+const endpoint = 'https://rpc.testnet.near.org';
